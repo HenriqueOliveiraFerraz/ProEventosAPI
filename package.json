@@ -1,0 +1,29 @@
+{
+  "name": "proeventos",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000r\u0000o\u0000E\u0000v\u0000e\u0000n\u0000t\u0000o\u0000s\u0000A\u0000P\u0000I\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=\"lcov%2ccobertura%2copencover\"",
+    "prepare": "husky install",
+    "preinstall": "dotnet tool restore"
+  },
+  "lint-staged": {
+    "*.cs": "dotnet format --include"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueOliveiraFerraz/ProEventosAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueOliveiraFerraz/ProEventosAPI/issues"
+  },
+  "homepage": "https://github.com/HenriqueOliveiraFerraz/ProEventosAPI#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^12.4.1"
+  }
+}
