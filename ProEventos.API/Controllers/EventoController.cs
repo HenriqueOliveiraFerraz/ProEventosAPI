@@ -29,6 +29,16 @@ namespace ProEventos.API.Controllers
                 QtdPessoas = 250,
                 DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
                 ImagemURL = "foto.png"
+            },
+            new Evento()
+            {
+                EventoId = 3,
+                Tema = "Teste",
+                Local = "Internet",
+                Lote = "3º Lote",
+                QtdPessoas = 250,
+                DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
+                ImagemURL = "foto.png"
             }
         };
 
